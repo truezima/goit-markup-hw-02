@@ -140,7 +140,7 @@ a.header-contacts {
     line-height: 1.5;
     letter-spacing: 0.02em
 }
-.header-contacts:hover, .header-contacts:active {
+.header-contacts:hover, .header-contacts:active, .header-contacts:focus {
 color: #404BBF;
 }
 .main-section {
