@@ -86,7 +86,10 @@ color: #2e2f42;
 .header-logo:hover {
     color: #404bbf
 }
-.header-menu a {
+.header-nav {
+
+}
+.header-menu a{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -97,13 +100,14 @@ color: #2e2f42;
     color: #404BBF;
 }
 .header-address {
+  
+}
+a.header-contacts {
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
-}
-.header-contacts {
-    color: #434455;
 }
 .header-contacts:hover, .header-contacts:active {
 color: #404BBF;
