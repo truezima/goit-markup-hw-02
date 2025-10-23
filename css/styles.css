@@ -56,19 +56,17 @@ button:active, button:hover, button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.title {
+.principles-title {
      font-size: 36px;
      font-weight: 500; 
      letter-spacing: 0.02em; 
      line-height: 1.11;
      color: #2e2f42;
      text-transform: capitalize;
-
 }
 
 .title-portfolio {
     font-size: 36px;
-    font-size: 20px;
     color: #2e2f42;
     line-height: 1.11;
     font-weight: 500; 
@@ -121,7 +119,7 @@ button:active, button:hover, button:focus {
 .header-nav {
 
 }
-.header-menu a{
+a.header-menu {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -129,7 +127,7 @@ button:active, button:hover, button:focus {
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
-.header-menu a:hover, .header-menu a:active, .header-menu a:focus {
+a.header-menu:hover, a.header-menu:active, a.header-menu:focus {
     color: #404BBF;
 }
 .header-address {
