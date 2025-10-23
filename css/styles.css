@@ -28,30 +28,53 @@ button {
     color: #FFFFFF;
     cursor: pointer;
 }
-button:active, button:hover {
+button:active, button:hover, button:focus {
     background-color: #404BBF;
 }
 .main-button {    
     font-size: 16px;
-    line-height: 1.5;    
+    line-height: 1.5;  
+    font-weight: 500;
+    letter-spacing: 0.04em  
 }
 .main-title {
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+.title, .title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.title-portfolio {
+text-transform: capitalize;
+color: #2e2f42;
+}
+.team-member-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 .header-logo, .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#2E2F42;
+    color:#4d5ae5;
+    letter-spacing: 0.02em
 }
-span.logo-web {
-    color: #4D5AE5;
+span.logo-studio {
+    color: #2E2F42;
+}
+
+.header-logo:hover {
+    color: #404bbf
 }
 .header-menu a {
     font-family: 'Roboto', sans-serif;
@@ -63,13 +86,36 @@ span.logo-web {
 .header-menu a:hover, .header-menu a:active {
     color: #404BBF;
 }
-.header-contacts {
+.header-address {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em
 }
 .header-contacts:hover, .header-contacts:active {
 color: #404BBF;
 }
-
+.main-section {
+    background-color: #2e2f42;
+}
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color:#2e2f42;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.site-fopter {
+    background-color: #2e2f42;
+}
+.fotter-text {
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
