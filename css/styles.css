@@ -62,15 +62,18 @@ button:active, button:hover, button:focus {
 
 }
 .title, .title-portfolio {
-    font-weight: 500; 
+     font-size: 36px;
+    font-weight: 500;    
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
 }
 .title-portfolio {
+    font-size: 36px;
     font-size: 20px;
     color: #2e2f42;
+     line-height: 1.11;
 }
 .team-member-card {
     background-color: #ffffff;
@@ -148,9 +151,9 @@ color: #404BBF;
 } 
 .portfolio-name {
     font-weight: 500;
-    font-size: 36px;
+    font-size: 20px;
     letter-spacing: 0.02em;
-    line-height: 1.11;
+    line-height: 1.2;
     color:#2e2f42;
 }
 .portfolio-text {
