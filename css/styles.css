@@ -65,12 +65,22 @@ color: #2e2f42;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4d5ae5;
+    text-transform: uppercase;   
     letter-spacing: 0.02em
 }
-span.logo-studio {
-    color: #2E2F42;
+
+ .header-logo {
+    color: #4D5AE5;
+ }
+.footer-logo {
+  color:#4D5AE5;
+}
+
+.header-logo-studio {
+  color: #2E2F42;
+}
+.footer-logo-studio {
+  color:#F4F4FD;
 }
 
 .header-logo:hover {
