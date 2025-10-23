@@ -18,7 +18,6 @@ h1, h2, h3 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -48,8 +47,9 @@ button:active, button:hover, button:focus {
 .principle-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+     text-transform: capitalize;
     color: #2e2f42;
 }
 .principle-text {
