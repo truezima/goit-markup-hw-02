@@ -100,8 +100,10 @@ color: #2e2f42;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
     letter-spacing: 0.02em
+}
+.header-contacts {
+    color: #434455;
 }
 .header-contacts:hover, .header-contacts:active {
 color: #404BBF;
