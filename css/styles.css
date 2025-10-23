@@ -43,17 +43,45 @@ button:active, button:hover, button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-transform: capitalize;
 }
-.title, .title-portfolio {
+.principle-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.principle-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.title {
+     font-size: 36px;
+     line-height: 1.11;
+
+}
+.title, .title-portfolio {
+    font-weight: 500; 
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 .title-portfolio {
-text-transform: capitalize;
-color: #2e2f42;
+    font-size: 20px;
+    color: #2e2f42;
+}
+.team-member-card {
+    background-color: #ffffff;
+}
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+
 }
 .team-member-text {
     line-height: 1.5;
@@ -66,14 +94,14 @@ color: #2e2f42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;   
-    letter-spacing: 0.02em
 }
-
  .header-logo {
     color: #4D5AE5;
+    letter-spacing: 0.02em
  }
 .footer-logo {
   color:#4D5AE5;
+  letter-spacing: 0.03em
 }
 
 .header-logo-studio {
@@ -96,11 +124,11 @@ color: #2e2f42;
     line-height: 1.5;
     color: #2E2F42;
 }
-.header-menu a:hover, .header-menu a:active {
+.header-menu a:hover, .header-menu a:active, .header-menu a:focus {
     color: #404BBF;
 }
 .header-address {
-  
+  font-style: normal;
 }
 a.header-contacts {
     color: #434455;
@@ -115,11 +143,14 @@ color: #404BBF;
 .main-section {
     background-color: #2e2f42;
 }
+.team {
+    background-color: #F4F4FD;
+} 
 .portfolio-name {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     letter-spacing: 0.02em;
-    line-height: 1.2;
+    line-height: 1.11;
     color:#2e2f42;
 }
 .portfolio-text {
