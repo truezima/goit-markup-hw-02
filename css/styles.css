@@ -58,22 +58,22 @@ button:active, button:hover, button:focus {
 }
 .title {
      font-size: 36px;
+     font-weight: 500; 
+     letter-spacing: 0.02em; 
      line-height: 1.11;
+     color: #2e2f42;
+     text-transform: capitalize;
 
 }
-.title, .title-portfolio {
-     font-size: 36px;
-    font-weight: 500;    
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
+
 .title-portfolio {
     font-size: 36px;
     font-size: 20px;
     color: #2e2f42;
-     line-height: 1.11;
+    line-height: 1.11;
+    font-weight: 500; 
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 .team-member-card {
     background-color: #ffffff;
@@ -96,15 +96,16 @@ button:active, button:hover, button:focus {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+
 }
  .header-logo {
     color: #4D5AE5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.03em;
  }
 .footer-logo {
   color:#4D5AE5;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 .header-logo-studio {
@@ -126,6 +127,7 @@ button:active, button:hover, button:focus {
     font-size: 16px;
     line-height: 1.5;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 .header-menu a:hover, .header-menu a:active, .header-menu a:focus {
     color: #404BBF;
